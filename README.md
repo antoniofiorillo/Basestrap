@@ -15,14 +15,11 @@ A Wordpress Starter Theme create by [FiorilloDesign.it](https://www.fiorillodesi
 - Page
 - Search
 - Category
-- Tag
 - 404
+- Comments
 
 ## Usage
 Copy in theme folder.
-
-## HTML & CSS
-Html & Css of the structure: [http://codepen.io/afmarchetti/pen/ozgxrB](http://codepen.io/afmarchetti/pen/ozgxrB)
 
 ## Licensing
 MIT © 2016 [Antonio Fiorillo](https://www.fiorillodesign.it/)
