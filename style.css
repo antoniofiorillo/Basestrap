@@ -1,0 +1,206 @@
+/*!
+Theme Name: Basestrap
+Description: 	Responsive WordPress Theme based on Boostrap 4 and Font Awesome 5.
+Version: 1.0.0
+Author: Antonio Fiorillo
+Author URI: https://www.fiorillodesign.it
+Site: https://www.fiorillodesign.it
+Text Domain: basestrap
+Domain Path: /languages
+Tags: custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, bootstrap-4, font-awesome-5
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+html {min-height: 100vh;}
+body {
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+input[type="submit"] {
+	color: #D2FF00;
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+textarea {width: 100%;}
+.site {flex: 1;}
+
+/* -----------------------------------
+NAVBAR
+------------------------------------ */
+.bg-light {background-color: #fff!important;}
+.nav-link {
+	text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #000;
+	margin: 8px 20px;
+	transition: border-bottom 0.3s linear;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #000;
+	border-bottom: 3px solid #D2FF00;
+}
+.navbar-light .navbar-nav .active > .nav-link {
+	border-bottom: 3px solid #D2FF00;
+}
+
+/* -----------------------------------
+HOME Template
+------------------------------------ */
+.jumbotron-fluid {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	background: url('https://source.unsplash.com/random') no-repeat center center;
+	background-size: cover;
+	position: relative;
+}
+.jumbotron-filter {
+	background: #000;
+	opacity: 0.5;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 0;
+}
+.jumbotron .container {
+	position: relative;
+	z-index: 1;
+}
+.jumbotron h1,
+.jumbotron p {color: #fff;}
+
+/* -----------------------------------
+FOOTER
+------------------------------------ */
+footer {
+  width: 100%;
+	background: #000;
+	padding: 30px;
+}
+footer h5 {color: #fff;}
+footer a,
+footer a:hover {color: #D2FF00;}
+
+
+/* -----------------------------------
+INDEX
+------------------------------------ */
+.post-category {
+	display: inline-block;
+  background: #111;
+  padding: 5px 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	margin-right: 10px;
+}
+.post-category a {
+	font-size: 15px;
+	color: #D2FF00;
+	text-decoration: none;
+}
+
+/* -----------------------------------
+SINGLE
+------------------------------------ */
+.author {
+  margin: 15px 0;
+	display: inline-block;
+  width: 100%;
+}
+.author .avatar {margin-right: 10px;}
+.author img {
+  float: left;
+  margin: 0;
+  border-radius: 100px;
+  height: 40px;
+  width: auto;
+}
+.author a {color: #00b0ff;}
+.content-inside {
+	padding: 20px 40px;
+  font-size: 1.2em;
+  box-shadow: 0 5px 20px rgba(0,0,0,.08);
+  overflow: hidden;
+}
+.img-res {
+  width: 100%;
+  height: auto;
+}
+
+/* COMMENT */
+.comment-form {margin: 0;}
+.comments-title {margin-top: 20px;}
+.submit {width: 200px;}
+.wpcf7-submit {
+  width: 200px;
+  font-size: 15px;
+  background: #ff003b;
+  color: #fff;
+  padding: 20px;
+}
+
+/* PAGINATION */
+.pagination {margin-top: 40px; margin-bottom: 40px;}
+.pagination .current {background: #00b0ff; color: #fff;}
+.pagination span,
+.pagination a {padding: 10px 15px; margin-right: 10px; border: 1px solid #ddd; text-decoration: none; color: #00b0ff;}
+.pagination a:hover {background: #eee;}
+
+
+/* -----------------------------------
+SIDEBAR
+------------------------------------ */
+aside {margin-top: 30px;}
+.side-text-link:hover {text-decoration: none;}
+.side-text-link .fas {color: #111;}
+.title-side {text-transform: uppercase; color: #111;}
+.side-text-link_clock {
+	text-decoration: none;
+	display: block;
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #111;
+}
+.post-category strong {
+	font-size: 11px;
+	color: #D2FF00;
+}
+.side-text-link__title {
+	border-left: 5px solid transparent;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  display: block;
+  color: #222;
+  font-weight: bold;
+  margin: 5px 0 30px -3px;
+}
+.side-text-link:hover .side-text-link__title {
+  border-left: 5px solid #D2FF00;
+  padding-left: 10px;
+}
+.animate {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* SEARCHFORM */
+.btn {border-radius: 0;}
+.btn-secondary {
+  color: #D2FF00;
+  background-color: #000;
+  border: none;
+}
+.form-control {height: 100%;}
