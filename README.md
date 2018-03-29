@@ -2,14 +2,14 @@
 
 A Wordpress Starter Theme create by [FiorilloDesign.it](https://www.fiorillodesign.it/)
 
-##List of the features
+## List of the features
 
 - Responsive
 - Bootstrap navbar
 - Featured Image
 - Localization Ready
 
-##Wordpress functionality
+## Wordpress functionality
 
 - Single
 - Page
