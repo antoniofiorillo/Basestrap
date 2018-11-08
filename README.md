@@ -1,3 +1,5 @@
+![alt text](https://github.com/antoniofiorillo/basestrap/blob/master/screenshot.png)
+
 # Basestrap
 
 A Wordpress Starter Theme create by [FiorilloDesign.it](https://www.fiorillodesign.it/)
