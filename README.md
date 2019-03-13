@@ -1,4 +1,4 @@
-![alt text](https://github.com/antoniofiorillo/basestrap/blob/master/screenshot.png)
+![image](https://user-images.githubusercontent.com/26735645/54305526-c7898e00-45c7-11e9-9a4c-a2d866ca2a92.png)
 
 # Basestrap
 
