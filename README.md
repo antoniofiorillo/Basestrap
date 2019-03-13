@@ -2,7 +2,7 @@
 
 # Basestrap
 
-A Wordpress Starter Theme create by [FiorilloDesign.it](https://www.fiorillodesign.it/)
+A Wordpress Starter Theme created by [FiorilloDesign.it](https://www.fiorillodesign.it/)
 
 ## List of the features
 
